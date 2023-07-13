@@ -34,7 +34,7 @@ def predict():
 
 	return render_template("home.html",prediction_text="Car Price is : {}".format(result))
 
-
+print("hello world")
 if __name__ == "__main__":
 	app.debug=True
 	app.run(host = '127.0.0.1', port =7000)
